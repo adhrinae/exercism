@@ -81,19 +81,19 @@ class BobTest extends FlatSpec with Matchers {
   }
 
   it should "respond to silence" in {
-    pending
+    // pending
     val response = teenager.hey("")
     response should be ("Fine. Be that way!")
   }
 
   it should "respond to prolonged silence" in {
-    pending
+    // pending
     val response = teenager.hey("       ")
     response should be ("Fine. Be that way!")
   }
 
   it should "respond to multiple line questions" in {
-    pending
+    // pending
     val response = teenager.hey("""
 Does this cryogenic chamber make me look fat?
 no""")
